@@ -35,7 +35,7 @@ class SplashActivity : AppCompatActivity() {
 
         //Lanzamos el splash y ponemos una duración de 3 segundos
         Handler().postDelayed({
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
             finish()
         }, 3000)
 
