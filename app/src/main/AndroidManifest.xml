@@ -9,6 +9,7 @@
         android:roundIcon="@drawable/logo_negro"
         android:supportsRtl="true"
         android:theme="@style/Theme.AlquilSa">
+        <activity android:name=".LoginActivity"></activity>
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,8 +25,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.AlquilSa.NoActionBar">
-        </activity>
+            android:theme="@style/Theme.AlquilSa.NoActionBar"></activity>
     </application>
 
 </manifest>
