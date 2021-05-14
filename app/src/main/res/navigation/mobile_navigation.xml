@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.sheilalberto.alquilsa.ui.home.HomeFragment"
+        android:name="com.sheilalberto.alquilsa.ui.chat.ChatFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_chat" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.sheilalberto.alquilsa.ui.gallery.GalleryFragment"
+        android:name="com.sheilalberto.alquilsa.ui.buscar.BuscarFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_buscar" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.sheilalberto.alquilsa.ui.slideshow.SlideshowFragment"
+        android:name="com.sheilalberto.alquilsa.ui.miUbicacion.MiUbicacionFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_mi_ubicacion" />
 </navigation>
