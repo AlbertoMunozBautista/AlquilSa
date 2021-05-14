@@ -25,6 +25,7 @@ import com.karumi.dexter.MultiplePermissionsReport
 import com.karumi.dexter.PermissionToken
 import com.karumi.dexter.listener.PermissionRequest
 import com.karumi.dexter.listener.multi.MultiplePermissionsListener
+import com.sheilalberto.alquilsa.clases.Usuario
 import kotlinx.android.synthetic.main.activity_login.*
 import java.util.regex.Matcher
 import java.util.regex.Pattern
@@ -53,7 +54,7 @@ class LoginActivity : AppCompatActivity() {
 
         tvLoginRegistro.setOnClickListener{
 
-            val mainIntent = Intent(this, Registro2Activity::class.java)
+            val mainIntent = Intent(this, RegistroActivity2::class.java)
             startActivity(mainIntent)
         }
 
