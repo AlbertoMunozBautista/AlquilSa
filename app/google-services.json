@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "785789646683",
+    "project_id": "alquilsa",
+    "storage_bucket": "alquilsa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785789646683:android:c8c5e2762ffaeea0f24c7e",
+        "android_client_info": {
+          "package_name": "com.sheilalberto.alquilsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785789646683-do0v7rtuutu1142b6qindahmtom7286m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJDF6i9BF6l33MDGxFyqBGCAyYxcVZhpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785789646683-do0v7rtuutu1142b6qindahmtom7286m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
