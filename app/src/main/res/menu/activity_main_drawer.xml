@@ -3,18 +3,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group android:checkableBehavior="single" >
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_buscar"
+            android:icon="@drawable/ic_buscar"
+            android:title="@string/buscar" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_poner"
+            android:icon="@drawable/ic_poner"
+            android:title="@string/poner" />
+
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_ubicacion"
+            android:icon="@drawable/ic_ubicacion"
+            android:title="@string/ubicacion" />
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="@string/chat" />
+
+
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_perfil"
+            android:title="@string/perfil" />
+
+
+
+
     </group>
 </menu>
