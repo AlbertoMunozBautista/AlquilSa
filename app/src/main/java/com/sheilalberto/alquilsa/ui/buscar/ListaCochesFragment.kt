@@ -19,6 +19,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.firebase.database.*
 import com.sheilalberto.alquilsa.CirculoTransformacion
 import com.sheilalberto.alquilsa.clases.Coche
+import com.sheilalberto.alquilsa.ui.poner.CocheListAdapter
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.fragment_lista2_coches.*
 
