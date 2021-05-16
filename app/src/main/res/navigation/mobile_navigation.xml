@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_buscar">
+
+    <fragment
+        android:id="@+id/nav_buscar"
+        android:name="com.sheilalberto.alquilsa.ui.buscar.BuscarFragment"
+        android:label="@string/buscar"
+        tools:layout="@layout/fragment_buscar" />
+
+    <fragment
+        android:id="@+id/nav_poner"
+        android:name="com.sheilalberto.alquilsa.ui.poner.PonerFragment"
+        android:label="@string/poner"
+        tools:layout="@layout/fragment_poner" />
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.sheilalberto.alquilsa.ui.chat.ChatFragment"
+        android:label="@string/chat"
+        tools:layout="@layout/fragment_chat" />
+
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.sheilalberto.alquilsa.ui.perfil.PerfilFragment"
+        android:label="@string/perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+    <fragment
+
+        android:id="@+id/nav_ubicacion"
+        android:name="com.sheilalberto.alquilsa.ui.miUbicacion.MiUbicacionFragment"
+        android:label="@string/ubicacion"
+        tools:layout="@layout/fragment_mi_ubicacion" />
+
+
+</navigation>
