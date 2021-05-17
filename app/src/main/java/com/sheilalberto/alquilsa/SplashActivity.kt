@@ -23,9 +23,9 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         //Para que desaparezcan las partes de arriba de la pantalla
-        window.requestFeature(Window.FEATURE_NO_TITLE)
-        window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
-        this.supportActionBar!!.hide()
+        //window.requestFeature(Window.FEATURE_NO_TITLE)
+        //window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
+       // this.supportActionBar!!.hide()
 
         setContentView(R.layout.activity_splash)
         //Cargamos una animacion que va a hacer que el logo aparezca hacia arriba
