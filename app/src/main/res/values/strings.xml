@@ -22,7 +22,7 @@
 
     <!-- <string name="default_web_client_id" translatable="false">785789646683-do0v7rtuutu1142b6qindahmtom7286m.apps.googleusercontent.com</string> -->
 
-    <string name="google_maps_key">AIzaSyAOz7h9X4K_g6lcAWaVWj_RuSDZ-yV10Xs-0</string>
+    <string name="google_maps_key">AIzaSyAOz7h9X4K_g6lcAWaVWj_RuSDZ-yV10Xs</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
