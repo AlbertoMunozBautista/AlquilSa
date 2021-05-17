@@ -21,6 +21,10 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+<<<<<<< HEAD
+=======
+import com.google.android.gms.auth.api.Auth
+>>>>>>> CorreccionErrores
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.database.*
@@ -58,7 +62,11 @@ class MainActivity : AppCompatActivity() {
 
 
         appBarConfiguration = AppBarConfiguration(setOf(
+<<<<<<< HEAD
                 R.id.nav_buscar, R.id.nav_poner, R.id.nav_chat, R.id.nav_perfil, R.id.nav_ubicacion), drawerLayout)
+=======
+            R.id.nav_buscar, R.id.nav_poner, R.id.nav_chat, R.id.nav_perfil, R.id.nav_ubicacion), drawerLayout)
+>>>>>>> CorreccionErrores
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
@@ -66,7 +74,11 @@ class MainActivity : AppCompatActivity() {
         //navView.menu.findItem(R.id.nav_salir).setOnMenuItemClickListener ({ menuItem  })
 
         Auth = Firebase.auth
+<<<<<<< HEAD
+        db = FirebaseDatabase.getInstance("https://alquilsa-default-rtdb.europe-west1.firebasedatabase.app/")
+=======
         db = FirebaseDatabase.getInstance("https://alquilsaguarro-default-rtdb.europe-west1.firebasedatabase.app/")
+>>>>>>> CorreccionErrores
 
 
         val tvMainCorreo : TextView = navView.getHeaderView(0).findViewById(R.id.tvMainCorreo)
@@ -80,7 +92,11 @@ class MainActivity : AppCompatActivity() {
 
         databaseReference = db.reference.child("usuarios").child(idUsuario)
 
+<<<<<<< HEAD
         var getData = object : ValueEventListener {
+=======
+        var getData = object : ValueEventListener{
+>>>>>>> CorreccionErrores
             override fun onDataChange(snapshot: DataSnapshot) {
 
                 name = snapshot.child("nombre").getValue().toString()
@@ -94,11 +110,19 @@ class MainActivity : AppCompatActivity() {
                 tvMainCorreo.text = email
 
                 Picasso.get()
+<<<<<<< HEAD
                         // .load(R.drawable.user_avatar)
                         .load(Uri.parse(photoUrl))
                         .transform(CirculoTransformacion())
                         .resize(130, 130)
                         .into(imaMainFoto)
+=======
+                    // .load(R.drawable.user_avatar)
+                    .load(Uri.parse(photoUrl))
+                    .transform(CirculoTransformacion())
+                    .resize(130, 130)
+                    .into(imaMainFoto)
+>>>>>>> CorreccionErrores
 
             }
 
@@ -143,12 +167,21 @@ class MainActivity : AppCompatActivity() {
 
     private fun salir() {
         AlertDialog.Builder(this)
+<<<<<<< HEAD
                 .setIcon(R.drawable.logo_negro)
                 .setTitle("Cerrar sesión actual")
                 .setMessage("¿Desea salir de la sesión actual?")
                 .setPositiveButton("Sí"){ dialog, which -> cerrarSesion()}
                 .setNegativeButton( "No",null)
                 .show()
+=======
+            .setIcon(R.drawable.logo_negro)
+            .setTitle("Cerrar sesión actual")
+            .setMessage("¿Desea salir de la sesión actual?")
+            .setPositiveButton("Sí"){ dialog, which -> cerrarSesion()}
+            .setNegativeButton( "No",null)
+            .show()
+>>>>>>> CorreccionErrores
     }
 
     private fun cerrarSesion(){
@@ -167,5 +200,8 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> CorreccionErrores
 }

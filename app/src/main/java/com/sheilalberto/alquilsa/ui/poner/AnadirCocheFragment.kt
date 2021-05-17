@@ -540,7 +540,7 @@ class AnadirCocheFragment(
         pruebecita.add("eee")
         pruebecita.add("ii")
 
-        db = FirebaseDatabase.getInstance("https://alquilsaguarro-default-rtdb.europe-west1.firebasedatabase.app/")
+        db = FirebaseDatabase.getInstance("https://alquilsa-default-rtdb.europe-west1.firebasedatabase.app/")
 
         //recogemos la referencia a la tabla ubicaciones
         databaseUbicacionReference = db.reference.child("ubicaciones")

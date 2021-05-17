@@ -100,7 +100,7 @@ class PonerFragment : Fragment() {
 
         var lista = mutableListOf<Coche>() //Lista de coches
 
-        db = FirebaseDatabase.getInstance("https://alquilsaguarro-default-rtdb.europe-west1.firebasedatabase.app/")
+        db = FirebaseDatabase.getInstance("https://alquilsa-default-rtdb.europe-west1.firebasedatabase.app/")
 
         val prefs = requireActivity().getSharedPreferences(
                 getString(R.string.prefs_file),

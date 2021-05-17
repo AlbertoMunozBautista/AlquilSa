@@ -108,7 +108,7 @@ class ListaCochesFragment(
         var idUsuario = ""
         var lista = mutableListOf<Coche>() //Lista de sitios
 
-        db = FirebaseDatabase.getInstance("https://alquilsaguarro-default-rtdb.europe-west1.firebasedatabase.app/")
+        db = FirebaseDatabase.getInstance("https://alquilsa-default-rtdb.europe-west1.firebasedatabase.app/")
 
         //cogemos la referencia a las tablas de coches y usuarios
         databaseReference = db.reference.child("coches")
@@ -196,7 +196,7 @@ class ListaCochesFragment(
         var idUsuario = ""
         var lista = mutableListOf<Coche>() //Lista de coches
 
-        db = FirebaseDatabase.getInstance("https://alquilsaguarro-default-rtdb.europe-west1.firebasedatabase.app/")
+        db = FirebaseDatabase.getInstance("https://alquilsa-default-rtdb.europe-west1.firebasedatabase.app/")
 
         //referencias a las tablas de coches y usuarios
         databaseReference = db.reference.child("coches")
