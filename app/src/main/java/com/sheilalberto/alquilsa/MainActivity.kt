@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
         //navView.menu.findItem(R.id.nav_salir).setOnMenuItemClickListener ({ menuItem  })
 
         Auth = Firebase.auth
-        db = FirebaseDatabase.getInstance("https://alquilsaguarro-default-rtdb.europe-west1.firebasedatabase.app/")
+        db = FirebaseDatabase.getInstance("https://alquilsa-default-rtdb.europe-west1.firebasedatabase.app/")
 
 
         val tvMainCorreo : TextView = navView.getHeaderView(0).findViewById(R.id.tvMainCorreo)

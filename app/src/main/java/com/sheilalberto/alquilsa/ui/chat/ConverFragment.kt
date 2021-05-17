@@ -93,7 +93,7 @@ class ConverFragment(val u: Usuario) : Fragment() {
      */
     private fun enviarMensaje(idEmisor: String, idReceptor: String, mensaje: String){
         //Instanciamos la base de datos
-        db = FirebaseDatabase.getInstance("https://alquilsaguarro-default-rtdb.europe-west1.firebasedatabase.app/")
+        db = FirebaseDatabase.getInstance("https://alquilsa-default-rtdb.europe-west1.firebasedatabase.app/")
         databaseReference = db.reference.child("chat")//Tabla chat
 
         var hasMap : HashMap<String, String> = HashMap()
@@ -111,7 +111,7 @@ class ConverFragment(val u: Usuario) : Fragment() {
     private fun leerMensaje(idEmisor: String, idReceptor: String){
 
         //Instanciamos la bbdd
-        db = FirebaseDatabase.getInstance("https://alquilsaguarro-default-rtdb.europe-west1.firebasedatabase.app/")
+        db = FirebaseDatabase.getInstance("https://alquilsa-default-rtdb.europe-west1.firebasedatabase.app/")
         databaseReference = db.reference.child("chat")//Tabla chat
 
         databaseReference.addValueEventListener(object : ValueEventListener{

@@ -127,7 +127,7 @@ class BuscarFragment( var listaIds: MutableList<String> = mutableListOf<String>(
 
         var listaUbicaciones = mutableListOf<Ubicacion>() //Lista de ubicaciones
 
-        db = FirebaseDatabase.getInstance("https://alquilsaguarro-default-rtdb.europe-west1.firebasedatabase.app/")
+        db = FirebaseDatabase.getInstance("https://alquilsa-default-rtdb.europe-west1.firebasedatabase.app/")
 
 
         //recogemos las referencias a las tablas ubicaciones y usuarios
@@ -333,7 +333,7 @@ class BuscarFragment( var listaIds: MutableList<String> = mutableListOf<String>(
 
         fabBuscarFiltro.hide()
 
-        db = FirebaseDatabase.getInstance("https://alquilsaguarro-default-rtdb.europe-west1.firebasedatabase.app/")
+        db = FirebaseDatabase.getInstance("https://alquilsa-default-rtdb.europe-west1.firebasedatabase.app/")
         databaseReference = db.reference.child("ubicaciones")
 
         var latitud = p0?.position?.latitude.toString()

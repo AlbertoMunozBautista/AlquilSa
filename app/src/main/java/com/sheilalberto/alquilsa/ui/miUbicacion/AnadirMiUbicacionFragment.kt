@@ -64,7 +64,7 @@ class AnadirMiUbicacionFragment(
         idUbicacion = UUID.randomUUID().toString()
 
         //almacenamos la referencia al tabla ubicaciones
-        db = FirebaseDatabase.getInstance("https://alquilsaguarro-default-rtdb.europe-west1.firebasedatabase.app/")
+        db = FirebaseDatabase.getInstance("https://alquilsa-default-rtdb.europe-west1.firebasedatabase.app/")
         databaseReference = db.reference.child("ubicaciones")
 
         val btnAnadirMiUbicacionAnadir : Button = root.findViewById(R.id.btnAnadirMiUbicacionAnadir)

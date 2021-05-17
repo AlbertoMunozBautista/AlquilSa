@@ -41,7 +41,7 @@ class QrCocheFragment(private val c : Coche, private val total: Float, private v
         val btnQRVolver : Button = root.findViewById(R.id.btnQRVolver)
 
         //Instanciamos las bases de datos
-        db = FirebaseDatabase.getInstance("https://alquilsaguarro-default-rtdb.europe-west1.firebasedatabase.app/")
+        db = FirebaseDatabase.getInstance("https://alquilsa-default-rtdb.europe-west1.firebasedatabase.app/")
         databaseReference = db.reference.child("alquileres")//Tabla alquileres
         databaseCochesReference = db.reference.child("coches")//Tabla coches
 

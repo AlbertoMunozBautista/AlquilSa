@@ -116,7 +116,7 @@ class FiltroFragment(
 
             comprobarCampos()
 
-            db = FirebaseDatabase.getInstance("https://alquilsaguarro-default-rtdb.europe-west1.firebasedatabase.app/")
+            db = FirebaseDatabase.getInstance("https://alquilsa-default-rtdb.europe-west1.firebasedatabase.app/")
 
             //recogemos la referencia a la base de datos de coches
             databaseReference = db.reference.child("coches")
